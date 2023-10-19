@@ -46,7 +46,15 @@ header {
 }
 
 
+footer{margin-bottom: 80px;}
 
+#footer-logo {
+    height: 60px;
+    background-color: black;
+    margin-left: 65px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
 
 
 
