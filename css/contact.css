@@ -27,6 +27,10 @@ header {
 }
 
 #connect-box h1 {font-size: 50px; margin-top: 70px;}
+#connect-box p {font-size: 30px; margin-top: 20px; margin-left: 30px;}
+
+#form {margin-top: 60px;}
+
 
 #form input, label, textarea{
     height: 32px;
@@ -35,7 +39,13 @@ header {
 }
 
 #form label {
-    margin-left: 20px;
+    margin-left: 40px;
+}
+
+#form textarea {
+    height: 150px;
+    resize: none;
+    padding-left: 10px;
 }
 
 #form .submit {
@@ -61,12 +71,6 @@ footer{margin-bottom: 80px; }
 }
 
 
-
-
-
-
-
-
 @media screen and (min-width: 768px){
     header{
         height: 105px;
@@ -77,10 +81,19 @@ footer{margin-bottom: 80px; }
         width: 65px;
     }
     #connect-box h1 {font-size: 145px; margin-top: 70px;}
+    #connect-box p {font-size: 70px; margin-top: 30px;}
 
-    #form input, label, textarea{
-        height: 70px;
-        margin-top: 20px;
+    #form {margin-top: 70px;}
+    #form input{
+        height: 40px;
+        width: 500px;
+    }
+    #form label {
+        font-size: 27px;
+        margin-left: 30px;
+    }
+    #form textarea {
+        width: 500px;
     }
 
 }
