@@ -86,6 +86,7 @@ header {
 #profile-img{
     background-color: cadetblue;
     height: 276px;
+    width: 276px;
     border-radius: 50%;
     margin-top: 40px;
     margin-bottom: 70px;
@@ -97,26 +98,29 @@ header {
 
 #what-do {text-align: center;}
 #what-do h1 {margin-top: 50px;}
-#what-do p {margin-top: 20px;}
+#what-do p {margin-top: 10px; margin-bottom: 40px;}
 
 #contact-img {
     height: 236px;
     background-color: blueviolet;
+    margin-top: 50px;
 }
 
 #lets-work {margin-top: 70px;}
 
 
-footer{margin-bottom: 80px;}
+footer{margin-bottom: 80px; }
 
 #footer-logo {
-    height: 60px;
+    height: 65px;
+    width: 65px;
     background-color: black;
-    margin-left: 65px;
+    margin-left: 60px;
     margin-top: 70px;
     margin-bottom: 70px;
-}
+    text-align: center;
 
+}
 
 
 @media screen and (min-width: 768px){
@@ -128,17 +132,29 @@ footer{margin-bottom: 80px;}
         height: 65px;
         width: 65px;
     }
+    #jintao-text {font-size: 100px;}
     #banner {
         height: 462px;
-        background-color: aquamarine;
     }
 
     .img-box {
         height: 295px;
-        background-color: #707070;
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
+    #profile-img{
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+    }
+
     #my-des {margin-top: 100px; margin-bottom: 70px;}
+
+    #earbunds-img-box {
+        height: 300px;
+
+    }
+    #my-des {font-size: 30px;}
 
 }
