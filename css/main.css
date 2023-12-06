@@ -1,3 +1,13 @@
+@font-face {
+    font-family: BM-HANNA;
+    src: url(../fonts/BM-HANNA.ttf);
+}
+
+@font-face {
+    font-family: BMYEONSUNG;
+    src: url(../fonts/BMYEONSUNG.ttf);
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -14,9 +24,8 @@ header {
 }
 
 #header-logo {
-    height: 55px;
-    width: 55px;
-    background-color: blue;
+    height: 45px;
+    width: 45px;
     margin-left: 10px;
     margin-top: 27px;
 }
@@ -26,16 +35,20 @@ header {
     margin-left: 20px;
 }
 #jintao-text {
-    font-size: 42px;
+    font-size: 52px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-family: BM-HANNA;
 }
 
 #banner {
-    height: 113px;
-    background-color: aquamarine;
+    border: none;
+    height: 170px;
     margin-bottom: 70px;
+    background-image: url(../images/home/art-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Line */
@@ -44,9 +57,16 @@ header {
     text-align: center;
     font-size: 55px;
     margin-top: 50px;
+    font-family: BM-HANNA;
 }
 
-.tittle {text-align: center; margin-top: 50px; margin-bottom: 30px; color: white;}
+.tittle {
+    text-align: center; 
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: BM-HANNA;
+    }
 
 
 .img-box {
@@ -81,24 +101,44 @@ header {
     margin-top: 50px;
     font-size: 55px;
     text-align: center;
+    font-family: BM-HANNA;
 }
 
 #profile-img{
-    background-color: cadetblue;
-    height: 276px;
-    width: 276px;
+    background-image: url(../images/home/profile-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
     border-radius: 50%;
     margin-top: 40px;
     margin-bottom: 70px;
+
 }
 
-#my-des {margin-top: 20px; margin-bottom: 70px;}
+#my-des {margin-top: 20px; margin-bottom: 70px; font-family: BMYEONSUNG;}
 
-#experience {text-align: center; margin-top: 50px; margin-bottom: 40px; line-height: 30px;}
 
-#what-do {text-align: center;}
-#what-do h1 {margin-top: 50px;}
-#what-do p {margin-top: 10px; margin-bottom: 40px;}
+#experience {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    line-height: 30px;
+    font-family: BM-HANNA;
+    
+}
+
+#experience h1{font-size: 50px;}
+
+#experience p {
+    font-size: 20px;
+    margin-top: 25px;
+}
+#what-do {
+    text-align: center;
+    font-family: BM-HANNA;
+    }
+#what-do h1 {margin-top: 50px; margin-bottom: 50px; font-size: 35px;}
+#what-do p {margin-top: 10px; margin-bottom: 40px; font-size: 20px;}
 
 #contact-img {
     height: 236px;
@@ -106,15 +146,19 @@ header {
     margin-top: 50px;
 }
 
-#lets-work {margin-top: 70px;}
+#lets-work {
+    margin-top: 170px;
+    font-family: BM-HANNA;
+    line-height: 50px;
+}
 
+#email-me {font-family: BM-HANNA; line-height: 30px;}
 
 footer{margin-bottom: 80px; }
 
 #footer-logo {
-    height: 65px;
-    width: 65px;
-    background-color: black;
+    height: 45px;
+    width: 45px;
     margin-left: 60px;
     margin-top: 70px;
     margin-bottom: 70px;

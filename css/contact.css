@@ -1,7 +1,13 @@
+@font-face {
+    font-family: BM-HANNA;
+    src: url(../fonts/BM-HANNA.ttf);
+}
+
 body {
     padding: 0;
     margin: 0;
     background-color: #DBD4CD;
+    font-family: BM-HANNA;
 }
 
 a {text-decoration: none;}
@@ -14,9 +20,8 @@ header {
 }
 
 #header-logo {
-    height: 55px;
-    width: 55px;
-    background-color: blue;
+    height: 45px;
+    width: 45px;
     margin-left: 10px;
     margin-top: 27px;
 }
@@ -60,9 +65,8 @@ header {
 footer{margin-bottom: 80px; }
 
 #footer-logo {
-    height: 65px;
-    width: 65px;
-    background-color: black;
+    height: 45px;
+    width: 45px;
     margin-left: 60px;
     margin-top: 70px;
     margin-bottom: 70px;
