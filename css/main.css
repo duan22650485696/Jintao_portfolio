@@ -18,7 +18,7 @@ a {text-decoration: none;}
 ul li {list-style: none;}
 ul li a {list-style: none; color: black;}
 
-header {
+header{
     height: 108px;
     background-color: #AA9987;
 }
@@ -26,16 +26,36 @@ header {
 #header-logo {
     height: 45px;
     width: 45px;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: 27px;
 }
 
 #Hambuger-menu {
-    margin-top: 40px;
-    margin-left: 20px;
+
+}
+
+#header-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+}
+
+#menu ul {
+    display: none;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 20px;
+    
 }
 #jintao-text {
-    font-size: 52px;
+    font-size: 57px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -61,6 +81,7 @@ header {
 }
 
 .tittle {
+    font-size: 28px;
     text-align: center; 
     margin-top: 50px;
     margin-bottom: 30px;
@@ -70,13 +91,28 @@ header {
 
 
 .img-box {
-    height: 195px;
-    background-color: #707070;
-    margin-top: 50px;
+    height: 395px;
+    margin-top: 10px;
     margin-bottom: 50px;
+    
 }
 
-#motion-text p {text-align: center;}
+h3 {
+    font-family: Futura;
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+#color-purple {color: #694791;}
+#color-orange {color: #FC8300;}
+#color-green {color: #39B44A;}
+
+#motion-text p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 
 #earbunds-img-box {
@@ -92,8 +128,8 @@ header {
 }
 
 #makeup-img {
+    display: flex;
     height: 267px;
-    background-color: brown;
     margin-bottom: 70px;
 }
 
@@ -176,6 +212,23 @@ footer{margin-bottom: 80px; }
         height: 65px;
         width: 65px;
     }
+
+    header {
+        display: flex;
+        height: 135px;
+        align-items: center;
+    }
+    #menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+        #menu li {
+            display: inline-block;
+            padding-left: 300px;
+        }
+    
     #jintao-text {font-size: 100px;}
     #banner {
         height: 462px;
@@ -187,11 +240,18 @@ footer{margin-bottom: 80px; }
         margin-bottom: 50px;
     }
 
+    #makeup-img{
+        display: flex;
+        height: 700px;
+        
+    }
+
     #profile-img{
         height: 400px;
         width: 400px;
         border-radius: 50%;
     }
+
 
     #my-des {margin-top: 100px; margin-bottom: 70px;}
 
@@ -200,5 +260,9 @@ footer{margin-bottom: 80px; }
 
     }
     #my-des {font-size: 30px;}
+
+    #lets-work{
+        margin-top: 600px;
+    }
 
 }
