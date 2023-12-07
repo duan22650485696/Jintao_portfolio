@@ -12,6 +12,22 @@ body {
     padding: 0;
     margin: 0;
     background-color: #DBD4CD;
+    -webkit-animation: color-change-2x 6s linear infinite alternate both;
+    animation: color-change-2x 8s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+    0% {
+        background: #DBD4CD;
+    }
+
+    50%{
+        background: #AA9987;
+    } 
+
+    100% {
+        background: #9365389b;
+    }
 }
 
 a {text-decoration: none;}
@@ -54,14 +70,30 @@ header{
     margin-right: 20px;
     
 }
+
 #jintao-text {
     font-size: 57px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
     font-family: BM-HANNA;
+    animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
+@-webkit-keyframes tracking-in-contract {
+    0% {
+        letter-spacing: 5em;
+        opacity: 0;
+    }
 
+    40% {
+        opacity: 0.8;
+    }
+
+    100% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+}
 #banner {
     border: none;
     height: 170px;
@@ -87,6 +119,7 @@ header{
     margin-bottom: 30px;
     color: white;
     font-family: BM-HANNA;
+   
     }
 
 
@@ -243,7 +276,7 @@ footer{margin-bottom: 80px; }
     #makeup-img{
         display: flex;
         height: 700px;
-        
+        justify-content: center;
     }
 
     #profile-img{
