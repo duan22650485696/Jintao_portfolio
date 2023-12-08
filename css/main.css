@@ -1,13 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: BM-HANNA;
     src: url(../fonts/BM-HANNA.ttf);
 }
-
 @font-face {
     font-family: BMYEONSUNG;
     src: url(../fonts/BMYEONSUNG.ttf);
 }
-
 body {
     padding: 0;
     margin: 0;
@@ -15,7 +19,6 @@ body {
     -webkit-animation: color-change-2x 6s linear infinite alternate both;
     animation: color-change-2x 8s linear infinite alternate both;
 }
-
 @-webkit-keyframes color-change-2x {
     0% {
         background: #DBD4CD;
@@ -29,10 +32,9 @@ body {
         background: #9365389b;
     }
 }
-
 a {text-decoration: none;}
 ul li {list-style: none;}
-ul li a {list-style: none; color: black;}
+ul li a {color: black;}
 
 header{
     height: 108px;
@@ -43,33 +45,57 @@ header{
     height: 45px;
     width: 45px;
     margin-left: 30px;
-    margin-top: 27px;
+    margin-top: 35px;
 }
 
-#Hambuger-menu {
-
-}
-
-#header-con {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 10px;
 }
 
-#menu{
+.nav-menu {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
 }
 
-#menu ul {
-    display: none;
-    padding: 0;
-}
+ .nav-menu {
+     display: none;;
+     justify-content: space-between;
+     align-items: center;
+     gap: 40px;
+     margin-top: 40px;
+     transition: 1s ease;
+     position: fixed;
+     left: -100%;
+     top: 70px;
+     flex-direction: column;
+     background-color: rgb(0, 123, 231);
+     width: 100%;
+     text-align: center;
+     transition: 0.3s;
+ }
 
-#menu li {
-    display: inline-block;
-    margin-right: 20px;
-    
-}
+ .nav-menu a {
+     color: white;
+     text-decoration: none;
+     padding: 10px;
+     transition: all 0.3s ease-in-out;
+ }
+
+ .nav-menu a:hover {
+     color: #AA9987;
+     background-color: white;
+ }
+
+ #Hambuger-menu {
+     cursor: pointer;
+     margin-top: 40px;
+ }
 
 #jintao-text {
     font-size: 57px;
@@ -94,17 +120,11 @@ header{
         opacity: 1;
     }
 }
-#banner {
-    border: none;
-    height: 170px;
-    margin-bottom: 70px;
-    background-image: url(../images/home/art-image.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 /* Line */
-
+hr {
+    margin-top: 60px;
+}
 #my-work {
     text-align: center;
     font-size: 55px;
@@ -122,12 +142,24 @@ header{
    
     }
 
+.pic-des h3 {font-size: 25px; margin-bottom: 20px;}
+
+.pic-des p {
+    margin-left: 1em;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: white;
+    font-family: BMYEONSUNG;
+}
 
 .img-box {
-    height: 395px;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 50px;
-    
+}
+
+.img-box img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
 }
 
 h3 {
@@ -147,10 +179,7 @@ h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-
 #earbunds-img-box {
-    height: 90px;
-    background-color: bisque;
     margin-top: 30px;
     margin-bottom: 60px;
 }
@@ -161,8 +190,6 @@ h3 {
 }
 
 #makeup-img {
-    display: flex;
-    height: 267px;
     margin-bottom: 70px;
 }
 
@@ -181,16 +208,21 @@ h3 {
     border-radius: 50%;
     margin-top: 40px;
     margin-bottom: 70px;
-
 }
 
-#my-des {margin-top: 20px; margin-bottom: 70px; font-family: BMYEONSUNG;}
 
+#profile-img:hover{
+    border: 4px solid;
+    transform: scale(0.9);
+    transition: 0.5s ease-in-out;
+    }
+
+#my-des {margin-top: 20px; margin-bottom: 70px; font-family: BMYEONSUNG;}
 
 #experience {
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     line-height: 30px;
     font-family: BM-HANNA;
     
@@ -210,13 +242,29 @@ h3 {
 #what-do p {margin-top: 10px; margin-bottom: 40px; font-size: 20px;}
 
 #contact-img {
-    height: 236px;
-    background-color: blueviolet;
-    margin-top: 50px;
+    margin-top: 70px;
+    -webkit-animation: kenburns-top 4s ease-in 1s infinite both;
+    animation: kenburns-top 4s ease-in 1s infinite both;
+}
+
+@-webkit-keyframes kenburns-top {
+    0% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+        -webkit-transform-origin: 50% 16%;
+        transform-origin: 50% 16%;
+    }
+
+    100% {
+        -webkit-transform: scale(1.1) translateY(-15px);
+        transform: scale(1.05) translateY(-15px);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+    }
 }
 
 #lets-work {
-    margin-top: 170px;
+    margin-top: 80px;
     font-family: BM-HANNA;
     line-height: 50px;
 }
@@ -235,67 +283,119 @@ footer{margin-bottom: 80px; }
 
 }
 
+.social-media-icon{width: 40%;}
 
 @media screen and (min-width: 768px){
     header{
-        height: 105px;
+        height: 110px;
     }
-    #Hambuger-menu {display: none;}
-    #header-logo {
-        height: 65px;
-        width: 65px;
+    .nav-menu{
+        display: flex;
     }
 
-    header {
-        display: flex;
-        height: 135px;
-        align-items: center;
+    #Hambuger-menu {display: none;}
+
+    #header-logo {
+        height: 55px;
+        width: 55px;
+        padding-bottom: 90px;
+        margin-left: 80px;
     }
-    #menu {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        align-items: center;
+    hr{
+        margin-top: 100px;
+        border-top: 2px solid
     }
-        #menu li {
-            display: inline-block;
-            padding-left: 300px;
-        }
+    #my-work {
+        font-size: 90px;
+    }
     
-    #jintao-text {font-size: 100px;}
-    #banner {
-        height: 462px;
-    }
+    #jintao-text {font-size: 130px;}
 
     .img-box {
-        height: 295px;
         margin-top: 50px;
         margin-bottom: 50px;
     }
 
-    #makeup-img{
-        display: flex;
-        height: 700px;
-        justify-content: center;
+    .tittle{
+        font-size: 60px;
+    }
+    /* Kavorka tittle */
+    h3 {
+        font-size: 65px;
+        margin-bottom: 80px;
+    }
+    #logo-design-des h2 {
+        font-size: 60px;
+        margin-bottom: 80px;
+    }
+    #earbunds-img-box {
+       margin-top: 100px;
+       margin-bottom: 40px;
+    }
+
+    #about-me {
+        font-size: 120px;
+        margin-top: 120px;
+        margin-bottom: 60px;
+    }
+
+    #experience h1 {
+        font-size: 80px;
     }
 
     #profile-img{
-        height: 400px;
-        width: 400px;
+        height: 440px;
+        width: 440px;
         border-radius: 50%;
     }
-
-
-    #my-des {margin-top: 100px; margin-bottom: 70px;}
-
-    #earbunds-img-box {
-        height: 300px;
-
+    #experience h1{
+        font-size: 90px;
+        margin-top: 70px;
+        margin-bottom: 150px;
     }
-    #my-des {font-size: 30px;}
 
-    #lets-work{
-        margin-top: 600px;
+    #experience p{
+        margin-top: 70px;
+        font-size: 40px;
+    }
+
+    #what-do h1{
+        font-size: 70px;
+        margin-top: 70px;
+        margin-bottom: 150px;
+    }
+
+    #what-do p {
+        font-size: 40px;
+    }
+
+    #contact-img {
+        margin-top: 120px;
+    }
+
+    #lets-work h1{
+        margin-top: 80px;
+        font-size: 60px;
+    }
+    #email-me h1 {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    #my-des p{
+        margin-top: 100px;
+        margin-bottom: 70px;
+        font-size: 30px;
+    }
+
+    #footer-logo {
+        margin-top: 200px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .social-media-icon{
+        width: 100%;
     }
 
 }

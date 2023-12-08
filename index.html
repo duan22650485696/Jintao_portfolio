@@ -10,23 +10,20 @@
 </head>
 
 <body>
-   
     <header>
-        <div id="header-con">
-            <div id="header-logo">
-                <a href="#"><img src="images/home/pro-logo-3.svg" alt="header-logo"></a>
-            </div>
-            <div id="Hambuger-menu">
-                <a href="#"><img src="images/home/Hambuger-menu.png" alt="Hambuger-menu"></a>
-            </div>
-
-            <div id="menu">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
+       <nav class="navbar">
+        <div id="header-logo">
+            <a href="#"><img src="images/home/pro-logo-3.svg" alt="header-logo"></a>
         </div>
+        <ul class="nav-menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">GALLARY</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        <div id="Hambuger-menu">
+            <img src="images/home/Hambuger-menu.png" alt="hambuger">
+        </div>
+       </nav>
    </header>
    
     <main id="main">
@@ -34,28 +31,38 @@
             <h1 class="col-span-full m-col-span-full " id="jintao-text">JINTAO DUAN</h1>
             <!--Banner-->
             <section id="banner" class="col-span-full m-col-span-full">
-               
+               <img src="images/home/art-image.png" alt="banner-img">
             </section>
             <!-- line -->
-            <section class="col-start-2 col-end-4 m-col-start-3 m-col-end-10">
-                <hr class="line">
-            </section>
-             
-             <h1 id="my-work" class="col-span-full">MY WORK</h1>
-             <h2 class="col-span-full tittle">Photography</h2>
+                <hr class="line col-start-2 col-end-4 m-col-start-3 m-col-end-11">
 
+             <h1 id="my-work" class="col-span-full m-col-start-2 m-col-end-10">MY WORK</h1>
+             <h2 class="col-span-full tittle">Photography</h2>
+            <!--img 1-->
+                <section class="pic-des col-span-full m-col-start-2 m-col-end-8">
+                    <h3>Time Suqare</h3>
+                    <p>
+                        I was explore diffrent view in NY city, this photo I shoot when I sit on a touring bus, I was so exciting 
+                    </p>
+                </section>
+             
              <section class="img-box col-span-full m-col-start-8 m-col-end-12">
                 <a href="#"><img src="images/home/NY-img-1.jpg" alt="Ny-image1"></a>
              </section>
 
+             <!--img 2-->
+            <section class="pic-des col-span-full m-col-start-7 m-col-end-13">
+                <h3>Time Suqare</h3>
+                <p>
+                    I was explore diffrent view in NY city, this photo I shoot when I sit on a touring bus, I was so exciting
+                </p>
+            </section>
              <section class="img-box col-span-full m-col-start-2 m-col-end-6" >
                 <a href="#"><img src="images/home/NY-img-2.jpg" alt="Ny-img"></a>
              </section>
 
              <!--line 2-->
-             <section class="col-start-2 col-end-4 m-col-start-3 m-col-end-10">
-                <hr class="line">
-            </section>
+            <hr class="line col-start-2 col-end-4 m-col-start-3 m-col-end-11">
 
              <!-- home-motion design -->
              <section id="motion-text" class="col-span-full">
@@ -66,14 +73,15 @@
                 <P>……</P>
              </section>
                 <!--earbunds image-->
-             <section id="earbunds-img-box" class="col-span-full">
-                <a href="#"><img src="" alt=""></a>
-                
+             <section id="earbunds-img-box" class="col-span-full m-col-span-full l-col-span-full">
+                <a href="#">
+                    <video autoplay muted loop>
+                        <source src="video/earbuds-animation.mp4" type="video/mp4">
+                    </video>
+                </a>
              </section>
              <!--line 3-->
-             <section class="col-start-2 col-end-4 m-col-start-3 m-col-end-10">
-                <hr class="line">
-            </section>
+            <hr class="line col-start-2 col-end-4 m-col-start-3 m-col-end-11">
 
             <!-- Logo Design -->
             <section class=" col-span-full tittle" id="logo-design-des">
@@ -81,13 +89,14 @@
                 <h3><span id="color-purple">KA</span><span id="color-orange">VOR</span><span id="color-green">KA</span></h3>
             </section>
             <section id="makeup-img" class="col-span-full m-col-start-1 m-col-end-13">
-                <a href="#"><img src="images/home/Kavorka.gif" alt="Kavorka"></a>
+                <a href="#">
+                <video autoplay muted loop>
+                <source src="video/Kavoka_animation.mp4" type="video/mp4">
+                </a>
             </section>
 
-            <!--line 3-->
-            <section class="col-start-2 col-end-4 m-col-start-3 m-col-end-10">
-                <hr class="line">
-            </section>
+            <!--line 4-->
+            <hr class="line col-start-2 col-end-4 m-col-start-3 m-col-end-11">
 
              <!-- About me -->
              <h1 class="col-span-full " id="about-me">ABOUT ME</h1>
@@ -106,11 +115,9 @@
                 </p>
              </section>
              
-                <!--line 4-->
-            <section class="col-start-2 col-end-4 m-col-start-3 m-col-end-10">
-                <hr class="line">
-            </section>
-            <section id="experience" class="col-span-full">
+                <!--line 5-->
+            <hr class="line col-start-2 col-end-4 m-col-start-3 m-col-end-11">
+            <section id="experience" class="col-span-full m-col-span-full">
                 <h1>MY EXPERIENCE</h1>
                 <p >2019-2022</p>
                 <p >SOFTWARE TESTER</p>
@@ -120,26 +127,21 @@
                 <p>SOFTWARE TESTER</p>
             </section>
             
-
-             <!--line 5-->
-             <section class="col-start-2 col-end-4 m-col-start-3 m-col-end-10">
-                <hr class="line">
-            </section>
+             <!--line 6-->
+            <hr class="line col-start-2 col-end-4 m-col-start-3 m-col-end-11">
 
             
-            <section id="what-do" class="col-span-full">
+            <section id="what-do" class="col-span-full m-col-span-full">
                 <h1>WHAT I CAN DO FOR YOU</h1>
-                <p>01 Web Development</p>
-                <p>02 Web Design</p>
-                <p>03 Graphic Design</p>
-                <p>04 Motion Design</p>
-                <p>05 Software Testing</p>
+                <p>01.Web Development</p>
+                <p>02.Web Design</p>
+                <p>03.Graphic Design</p>
+                <p>04.Motion Design</p>
+                <p>05.Software Testing</p>
             </section>
             
-            <!--line 6-->
-            <section class="col-start-2 col-end-4 m-col-start-3 m-col-end-10">
-                <hr class="line">
-            </section>
+            <!--line 7-->
+            <hr class="line col-start-2 col-end-4 m-col-start-3 m-col-end-11">
 
             <!--Contact me-->
             <section id="contact-img" class="col-span-full">
@@ -147,10 +149,10 @@
             </section>
 
             <section class="col-span-full m-col-start-3 m-col-end-11" id="lets-work">
-                <h1>LET'S WORK TOGETHER</h1>
+                <h1 >LET'S WORK TOGETHER</h1>
             </section>
 
-            <section id="email-me" class="col-start-1 col-end-3 m-col-start-3 m-col-end-9">
+            <section id="email-me" class="col-start-1 col-end-3 m-col-start-3 m-col-end-11">
                 <h1>EMAIL ME</h1>
                 <h1>TAOTAORIGHT@GMAIL.COM</h1>
             </section>
@@ -165,24 +167,23 @@
             </div>
 
         <!--social media-->
-
-        <section class="col-start-1 col-end-2 m-col-start-5 m-col-end-6"> 
+        <section class="col-start-1 col-end-2 m-col-start-5 m-col-end-6 social-media-icon"> 
             <a href="#"><img src="images/home/icons8-whatsapp-144.png" alt="whatsapp"></a>
         </section>
-        <section class="col-start-2 col-end-3 m-col-start-6 m-col-end-7"> 
+        <section class="col-start-2 col-end-3 m-col-start-6 m-col-end-7 social-media-icon"> 
             <a href="#"><img src="images/home/icons8-facebook-144(1).png" alt="facebook"></a>
         </section>
-        <section class="col-start-3 col-end-4 m-col-start-7 m-col-end-8"> 
+        <section class="col-start-3 col-end-4 m-col-start-7 m-col-end-8 social-media-icon"> 
             <a href="#"><img src="images/home/icons8-linkedin-144.png" alt="linkden"></a>
         </section>
-        <section class="col-start-4 col-end-5 m-col-start-8 m-col-end-9"> 
+        <section class="col-start-4 col-end-5 m-col-start-8 m-col-end-9 social-media-icon"> 
             <a href="#"><img src="images/home/icons8-instagram-144(2).png" alt="instagram"></a>
         </section>
         </div>   
     </footer>
 
         
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
