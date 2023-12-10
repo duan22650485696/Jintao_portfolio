@@ -14,21 +14,31 @@ a {text-decoration: none;}
 ul li {list-style: none;}
 ul li a {list-style: none; color: black;}
 
-header {
-    height: 108px;
-    background-color: #AA9987;
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#header-logo {
-    height: 45px;
-    width: 45px;
-    margin-left: 10px;
-    margin-top: 27px;
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    margin-top: 30px;
+
 }
 
-#Hambuger-menu {
-    margin-top: 40px;
-    margin-left: 20px;
+.nav-menu li a {
+    margin-right: 50px;
+    color: white;
+
+}
+
+.nav-menu li a:hover {
+    color: black;
+    transition: 0.5s ease-in;
 }
 
 #connect-box h1 {font-size: 50px; margin-top: 70px;}
@@ -103,7 +113,9 @@ header {
 }
 
 
-footer{margin-bottom: 30px; }
+footer {
+    margin-bottom: 80px;
+}
 
 #footer-logo {
     height: 45px;
@@ -115,21 +127,32 @@ footer{margin-bottom: 30px; }
 
 }
 
-.social-media-icon a img {
-    width: 40px;
-    height: 40px;
-    margin-left: 30px;
+.social-media-icon {
+    width: 40%;
 }
 
 
 @media screen and (min-width: 768px){
-    header{
-        height: 105px;
+header {
+        height: 110px;
     }
-    #Hambuger-menu {display: none;}
+
+    .nav-menu li a {
+        color: white;
+        margin-right: 80px;
+        font-size: 20px;
+    }
+
+    .nav-menu li {
+        display: block;
+        margin-top: -20px;
+    }
+
     #header-logo {
-        height: 65px;
-        width: 65px;
+        height: 55px;
+        width: 55px;
+        padding-bottom: 90px;
+        margin-left: 80px;
     }
     #connect-box h1 {font-size: 145px; margin-top: 70px;}
     #connect-box p {font-size: 70px; margin-top: 30px;}
@@ -146,10 +169,15 @@ footer{margin-bottom: 30px; }
     #form textarea {
         width: 500px;
     }
-    .social-media-icon a img {
-        width: 50px;
-        height: 50px;
-        margin-left: 30px;
+
+    #footer-logo {
+        margin-top: 200px;
+        width: 70px;
+        height: 70px;
     }
+    
+    .social-media-icon {
+        width: 100%;
+        }
 
 }
