@@ -24,5 +24,11 @@ This is a website where to show Jintao Duan's works and find more potential oppo
 
     9:00 add some social media links
 
+# problem 
+    1. Cannot solve the problem with Hambuge menu, I used normal menu list instead
+    2. Not engouh time to write PHP code
+    3. Tried much time about smooth scrolling with greensock, it doesn't works 
+
+
 # CSS library Used
     https://animista.net/play/attention/pulsate
