@@ -1,7 +1,46 @@
+@font-face {
+    font-family: BM-HANNA;
+    src: url(../fonts/BM-HANNA.ttf);
+}
+
+.gallary-box {
+       position: relative;
+       overflow: hidden;
+   }
+
+   .gallary-box img {
+       width: 100%;
+       height: auto;
+       display: block;
+   }
+
+   .gallary-box img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+   }
+
+ .content {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     opacity: 0;
+     transition: opacity 0.3s;
+     text-align: center;
+ }
+.content h1 {}
+
+
+  .gallary-box:hover .content {
+      opacity: 1;
+      color: rgb(255, 255, 255);
+  }
+
 body {
     padding: 0;
     margin: 0;
     background-color: #DBD4CD;
+    font-family: BM-HANNA;
 }
 
 a {text-decoration: none;}
@@ -11,65 +50,109 @@ ul li a {list-style: none; color: black;}
 header {
     height: 108px;
     background-color: #AA9987;
+    font-family: BM-HANNA;
 }
 
 #header-logo {
-    height: 55px;
-    width: 55px;
-    background-color: blue;
-    margin-left: 10px;
-    margin-top: 27px;
+    height: 45px;
+    width: 45px;
+    margin-left: 30px;
+    margin-top: 35px;
 }
 
-#Hambuger-menu {
-    margin-top: 40px;
-    margin-left: 20px;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.nav-menu li a {
+    margin-right: 50px;
+    color: white;
+
+}
+
+.nav-menu li a:hover {
+    color: black;
+    transition: 0.5s ease-in;
+}
 .gallary-box {
-    height: 145px;
-    background-color: #707070;
     margin-top: 50px;
 }
 
 .gallary { margin-top: 70px;}
 
 .gallary h1 {font-size: 60px;}
-.gallary h2 {margin-top: 70px; text-align: center;} 
-
-
+.gallary h2 {
+    margin-top: 70px;
+    text-align: center;
+    
+} 
 
 footer{margin-bottom: 80px; }
 
 #footer-logo {
-    height: 65px;
-    width: 65px;
-    background-color: black;
+    height: 45px;
+    width: 45px;
     margin-left: 60px;
     margin-top: 70px;
     margin-bottom: 70px;
     text-align: center;
 
 }
-
-
+.social-media-icon a img {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
 
 @media screen and (min-width: 768px){
-    header{
-        height: 105px;
+header {
+        height: 110px;
     }
-    #Hambuger-menu {display: none;}
+
+    .nav-menu li a {
+        color: white;
+        margin-right: 80px;
+        font-size: 20px;
+    }
+
+    .nav-menu li {
+        display: block;
+        margin-top: -20px;
+    }
+
     #header-logo {
-        height: 65px;
-        width: 65px;
+        height: 55px;
+        width: 55px;
+        padding-bottom: 90px;
+        margin-left: 80px;
     }
    
     .gallary-box {
-        height: 375px;
-        background-color: #707070;
         margin-top: 50px;
     }
 
-    .gallary h1 {font-size: 100px;}
+    .gallary h1 {font-size: 120px;}
+
+    .gallary h2 {font-size: 50px;}
+
+    #footer-logo {
+        margin-top: 200px;
+        width: 70px;
+        height: 70px;
+    }
+    
+    .social-media-icon {
+        width: 100%;
+    }
 
 }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 975.99 1185.47">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 838.51px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: MarkerFelt-Wide, 'Marker Felt';
+      }
+
+      .cls-2 {
+        font-size: 602.4px;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 60px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect class="cls-3" x="111.68" y="30" width="417.16" height="417.16" rx="10.2" ry="10.2"/>
+    <text class="cls-1" transform="translate(0 864.32)"><tspan x="0" y="0">J</tspan></text>
+    <rect class="cls-3" x="528.83" y="447.16" width="417.16" height="417.16" rx="10.2" ry="10.2"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <text class="cls-2" transform="translate(568.43 675.61)"><tspan x="0" y="0">T</tspan></text>
+  </g>
+</svg>
