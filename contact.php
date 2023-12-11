@@ -40,13 +40,13 @@
                 <!--email-->
                 <label class="m-col-start-3 m-col-end-5" for="email">Email</label>
                 <div class="col-start-2 col-end-5 m-col-start-5 m-col-end-12">
-                    <input type="email" name="fname">
+                    <input type="email" name="email">
                 </div>
 
                  <!--subject-->
                  <label class="m-col-start-3 m-col-end-5" for="subject">Subject</label>
                  <div class="col-start-2 col-end-5 m-col-start-5 m-col-end-12">
-                     <input type="text" name="fname">
+                     <input type="text" name="subject">
                  </div>
                 
                  <label class="m-col-start-3 m-col-end-5"  for="comments">Message</label>

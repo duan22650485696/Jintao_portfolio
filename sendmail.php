@@ -50,7 +50,6 @@ if(empty($errors)) {
 
 $to = 'j_168326@fanshaweonline.ca';
 $subject = 'Message from your Portfolio site!';
-
 $message = "You have received a new contact form submission:\n\n";
 $message .= "Name: ".$name."\n";
 $message .= "Email: ".$email."\n\n";
