@@ -42,7 +42,7 @@ if(empty($errors)) {
 
     //insert these values as a new row in the contacts table
 
-    $query = "INSERT INTO contacts (name, email, comments) VALUES('$name','$email','$subject''$msg')";
+    $query = "INSERT INTO contacts (name, email, subject, comments) VALUES('$name','$email','$subject','$msg')";
 
     if(mysqli_query($connect, $query)) {
     }
@@ -62,10 +62,6 @@ header('Location: thank_you.php');
 
 exit();
 
-}else {
-    foreach ($errors as $error) {
-        echo $error . '<br>';
-    }
 }
 
 ?>
