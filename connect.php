@@ -1,4 +1,4 @@
 <?php
 //connect to the database
-$connect = new mysqli('localhost','root','root','portfolio');
+$connect = new mysqli('localhost','root','root','contacts');
 ?>
