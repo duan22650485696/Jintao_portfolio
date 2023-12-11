@@ -19,7 +19,7 @@
             <ul class="nav-menu">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="gallary.html">GALLERY</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="contact.php">CONTACT</a></li>
             </ul>
         </nav>
     </header>
@@ -30,30 +30,30 @@
         </div>
 
         <div>
-            <form class="grid-con" id="form">
+            <form class="grid-con" id="form" method="post" action="sendmail.php">
                 <!--name-->
-                <label class="m-col-start-3 m-col-end-5">Name</label>
+                <label class="m-col-start-3 m-col-end-5" for="name">Name</label>
                 <div class="col-start-2 col-end-5 m-col-start-5 m-col-end-12">
                     <input type="text" name="name">
                 </div>
                 
                 <!--email-->
-                <label class="m-col-start-3 m-col-end-5">Email</label>
+                <label class="m-col-start-3 m-col-end-5" for="email">Email</label>
                 <div class="col-start-2 col-end-5 m-col-start-5 m-col-end-12">
-                    <input type="email" id="fname" name="fname">
+                    <input type="email" name="email">
                 </div>
 
                  <!--subject-->
-                 <label class="m-col-start-3 m-col-end-5">Subject</label>
+                 <label class="m-col-start-3 m-col-end-5" for="subject">Subject</label>
                  <div class="col-start-2 col-end-5 m-col-start-5 m-col-end-12">
-                     <input type="text" name="fname">
+                     <input type="text" name="subject">
                  </div>
                 
-                 <label class="m-col-start-3 m-col-end-5">Message</label>
+                 <label class="m-col-start-3 m-col-end-5"  for="comments">Message</label>
                  <div class="col-start-2 col-end-5 m-col-start-5 m-col-end-12">
                      <textarea name="message"></textarea>
                  </div>
-                 <input type="submit" value="submit" class="submit col-start-2 col-end-5 m-col-start-5 l-col-end-12">
+                 <input type="submit" value="Send" class="submit col-start-2 col-end-5 m-col-start-5 l-col-end-12">
               </form>
              
         </div>
