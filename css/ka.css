@@ -32,42 +32,37 @@ header nav a {
 
 
 
-main {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-
-h1 {
-    text-align: center;
-    color: #FC8300;
-    margin-top: 50px;
-}
+main {font-family:'Poppins', sans-serif;}
 
 h2 {
     margin-top: 50px;
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size: 70px;
     text-align: center;
     color: #694791;
 }
 
 h3 {
-    color: #39B44A;
-    font-size: 50px;
+    color: #FC8300;
+    font-size: 35px;
     text-align: center;
-    margin-top: 50px;
-}
-
-#kavorka-images img{
     margin-top: 30px;
 }
 
+#kavorka-images img{
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
 #kavorka-images img:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
     transition: 0.7s ease-in-out;
 }
 
 footer {
     margin-top: 60px;
-    background-color: rgb(173, 123, 196);
-    height: 120px;
+    background-color: #39B44A;
+    height: 140px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -83,6 +78,7 @@ footer p {
     font-weight: bold;
     line-height: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
 }
 
 
@@ -108,7 +104,7 @@ footer p {
 
         h1 {
             text-align: center;
-            font-size: 50px;
+            font-size: 80px;
             margin-top: 70px;
         }
     
