@@ -11,3 +11,9 @@ This is a website where to show Jintao Duan's works and find more potential oppo
 
     10-14-8:55
     added assets/JIntao_Duan Portfolio Database Plan.pdf
+
+# making Project List & Kavorka Detail page dynamic
+    2024-2-10
+
+    project_list.php
+    Kavorka_detail.php
