@@ -20,21 +20,8 @@ body {
   padding: 0;
   margin: 0;
   background-color: #DBD4CD;
-  -webkit-animation: color-change-2x 6s linear infinite alternate both;
-  animation: color-change-2x 8s linear infinite alternate both;
 }
 
-@-webkit-keyframes color-change-2x {
-  0% {
-    background: #DBD4CD;
-  }
-  50% {
-    background: #AA9987;
-  }
-  100% {
-    background: rgba(147, 101, 56, 0.6078431373);
-  }
-}
 a {
   text-decoration: none;
 }
