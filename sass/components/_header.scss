@@ -1,4 +1,16 @@
-header{
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: black;
+}
+
+header {
     height: 108px;
     background-color: #AA9987;
     font-family: BM-HANNA;
@@ -17,18 +29,15 @@ header{
     align-items: center;
 }
 
-
 .nav-menu {
     list-style-type: none;
     display: flex;
     margin-top: 30px;
-    
 }
 
-.nav-menu li a{
+.nav-menu li a {
     margin-right: 50px;
     color: white;
-    
 }
 
 .nav-menu li a:hover {
@@ -37,22 +46,27 @@ header{
 }
 
 @media screen and (min-width: 768px) {
-  header {
-    height: 110px;
-  }
-  .nav-menu li a {
-    color: white;
-    margin-right: 80px;
-    font-size: 20px;
-  }
-  .nav-menu li {
-    display: block;
-    margin-top: -20px;
-  }
-  #header-logo {
-    height: 55px;
-    width: 55px;
-    padding-bottom: 90px;
-    margin-left: 80px;
-  }
+    header {
+        height: 110px;
+    }
+
+    .nav-menu li a {
+        color: white;
+        margin-right: 80px;
+        font-size: 20px;
+    }
+
+    .nav-menu li {
+        display: block;
+        margin-top: -20px;
+    }
+
+    #header-logo {
+        height: 55px;
+        width: 55px;
+        padding-bottom: 90px;
+        margin-left: 80px;
+    }
 }
+
+
