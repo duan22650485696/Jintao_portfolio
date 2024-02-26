@@ -31,3 +31,17 @@ This is a website where to show Jintao Duan's works and find more potential oppo
 
 # CSS library Used
     https://animista.net/play/attention/pulsate
+
+
+# add the mobile hambuger menu
+    2-22 made it with js
+
+# add the basic form of the contact page  
+    2-25 add the error notifications when submit the form
+
+# add greensock features 
+    2-26 add the textsplit and triiger animtion on the homepage
+
+
+    
+
