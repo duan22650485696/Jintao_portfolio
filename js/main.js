@@ -1,10 +1,37 @@
 (()=>{
+    
+   gsap.from("#times-square-text, #broadway-text, #my-description", {
+    duration: 2,
+    y: 110,
+    autoAlpha: 0, // Corrected the value to 0 for initial opacity
+});
+
+
+
+gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from("#left-side", {
+        x: "-100%", 
+        opacity: 0, 
+        scrollTrigger: {
+            trigger: "#banner",
+            start: "top 100%", 
+            end: "top 50%", 
+            toggleActions: "play none none reverse", 
+        },
+});
+
+
+//hambuger menu
+
     document.getElementById('ham-menu').addEventListener('click', function() {
     document.querySelector('.nav-menu').classList.toggle('active');
 });
 
 
-  const form = document.querySelector("#form");
+//form erro messages
+
+const form = document.querySelector("#form");
 const feedback = document.createElement("div");
 feedback.id = "feedback";
 form.appendChild(feedback);
