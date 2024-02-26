@@ -20,13 +20,14 @@ header {
     height: 45px;
     width: 45px;
     margin-left: 30px;
-    margin-bottom: 40px;
+    margin-top: -100px;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
 }
 
 .nav-menu {
@@ -44,6 +45,35 @@ header {
     color: black;
     transition: 0.5s ease-in;
 }
+
+.nav-menu {
+    display: none;
+    background-color: #AA9987;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 30px;
+    position: absolute;
+    top: 78px;
+    right: 0;
+    line-height: 60px;
+    z-index: 1;
+    width: 50%;
+    height: 30%;
+}
+
+.nav-menu.active {
+    display: block;
+        /* Show the menu when active */
+    }
+
+#ham-menu {
+    width: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+   margin-top: -10px;
+}
+
+
 
 
 
