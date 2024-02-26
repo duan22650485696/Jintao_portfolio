@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+   <header>
         <nav class="navbar">
             <div id="header-logo">
                 <a href="#"><img src="images/home/pro-logo-3.svg" alt="header-logo"></a>
@@ -20,8 +20,10 @@
                 <li><a href="project_list.php">GALLERY</a></li>
                 <li><a href="contact.php">CONTACT</a></li>
             </ul>
+            <a href="#" id="ham-menu"><img src="images/home/ham-menu.png" alt="hamburger-menu"></a>
         </nav>
     </header>
+
    <main>
         <div class="grid-con" id="connect-box">
             <h1 class="col-span-full m-col-start-2 m-col-end-12">Let’s Connect</h1>
