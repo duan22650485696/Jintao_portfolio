@@ -6,8 +6,7 @@
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>Jintao's Portfotio</title>
     <link href="css/grid.css" rel="stylesheet">
-    <link href="css/contact.css" rel="stylesheet">
-    <link href="css/header.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +17,7 @@
             </div>
             <ul class="nav-menu">
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="gallary.html">GALLERY</a></li>
+                <li><a href="project_list.php">GALLERY</a></li>
                 <li><a href="contact.php">CONTACT</a></li>
             </ul>
         </nav>

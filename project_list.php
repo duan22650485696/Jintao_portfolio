@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CMS Main Page</title>
-    <link rel="stylesheet" href="css/gallary.css">
-    <link rel="stylesheet" href="css/grid.css">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 
@@ -16,7 +16,7 @@
             </div>
             <ul class="nav-menu">
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="gallary.html">GALLERY</a></li>
+                <li><a href="project_list.php">GALLERY</a></li>
                 <li><a href="contact.php">CONTACT</a></li>
             </ul>
         </nav>

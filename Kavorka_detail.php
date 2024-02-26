@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/casestudy.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
@@ -17,8 +16,8 @@
             </div>
             <ul class="nav-menu">
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="gallary.html">GALLERY</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="project_list.php">GALLERY</a></li>
+                <li><a href="contact.php">CONTACT</a></li>
             </ul>
         </nav>
     </header>

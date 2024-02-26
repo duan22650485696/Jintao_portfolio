@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: black;
+}
+
+header {
+    height: 108px;
+    background-color: #AA9987;
+    font-family: BM-HANNA;
+}
+
+#header-logo {
+    height: 45px;
+    width: 45px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    margin-top: 30px;
+}
+
+.nav-menu li a {
+    margin-right: 50px;
+    color: white;
+}
+
+.nav-menu li a:hover {
+    color: black;
+    transition: 0.5s ease-in;
+}
+
+
+

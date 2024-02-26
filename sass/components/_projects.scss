@@ -1,0 +1,44 @@
+
+.gallary-box {
+    position: relative;
+}
+
+.gallary-box img {
+    width: 100%;
+    display: block;
+}
+
+.gallary-box:hover {
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    text-align: center;
+}
+
+.gallary-box:hover .content {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+}
+.gallary-box {
+    margin-top: 70px;
+}
+
+.gallary {
+    margin-top: 70px;
+}
+
+.gallary h1 {
+    font-size: 60px;
+}
+
+.gallary h2 {
+    margin-top: 70px;
+    text-align: center;
+}

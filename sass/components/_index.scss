@@ -1,2 +1,8 @@
-// Import variables from the main variables partial
-@forward '';
+@forward 'header';
+@forward 'footer';
+@forward 'homepage_main';
+@forward 'desktop_size';
+@forward 'general';
+@forward 'projects';
+@forward 'contact';
+@forward 'kavorka_case_study';

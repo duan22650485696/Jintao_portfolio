@@ -1,27 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-@font-face {
-  font-family: BM-HANNA;
-  src: url(../fonts/BM-HANNA.ttf);
-}
-@font-face {
-  font-family: BMYEONSUNG;
-  src: url(../fonts/BMYEONSUNG.ttf);
-}
-@font-face {
-  font-family: Baloo Bhaijaan Regular;
-  src: url(../fonts/Baloo\ Bhaijaan\ Regular.ttf);
-}
-body {
-  padding: 0;
-  margin: 0;
-  background-color: #DBD4CD;
-}
-
 a {
   text-decoration: none;
 }
@@ -34,10 +10,6 @@ ul li a {
   color: black;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 header {
   height: 108px;
   background-color: #AA9987;
@@ -48,7 +20,7 @@ header {
   height: 45px;
   width: 45px;
   margin-left: 30px;
-  margin-top: 35px;
+  margin-bottom: 40px;
 }
 
 .navbar {
@@ -71,6 +43,23 @@ header {
 .nav-menu li a:hover {
   color: black;
   transition: 0.5s ease-in;
+}
+
+footer {
+  margin-bottom: 80px;
+}
+
+#footer-logo {
+  height: 45px;
+  width: 45px;
+  margin-left: 60px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.social-media-icon {
+  width: 40%;
 }
 
 #jintao-text {
@@ -254,9 +243,7 @@ h3 {
 
 #contact-img {
   margin-top: 70px;
- 
 }
-
 
 #lets-work {
   margin-top: 80px;
@@ -267,23 +254,6 @@ h3 {
 #email-me {
   font-family: BM-HANNA;
   line-height: 30px;
-}
-
-footer {
-  margin-bottom: 80px;
-}
-
-#footer-logo {
-  height: 45px;
-  width: 45px;
-  margin-left: 60px;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  text-align: center;
-}
-
-.social-media-icon {
-  width: 40%;
 }
 
 @media screen and (min-width: 768px) {
@@ -392,4 +362,187 @@ footer {
   .social-media-icon {
     width: 100%;
   }
+  /* gallary */
+  .gallary-box {
+    margin-top: 50px;
+  }
+  .gallary h1 {
+    font-size: 120px;
+  }
+  .gallary h2 {
+    font-size: 50px;
+  }
+  /* contact */
+  #connect-box h1 {
+    font-size: 145px;
+    margin-top: 70px;
+  }
+  #connect-box p {
+    font-size: 70px;
+    margin-top: 30px;
+  }
+  #form {
+    margin-top: 70px;
+  }
+  #form input {
+    height: 40px;
+    width: 500px;
+  }
+  #form label {
+    font-size: 27px;
+    margin-left: 30px;
+  }
+  #form textarea {
+    width: 500px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: BM-HANNA;
+  src: url(../fonts/BM-HANNA.ttf);
+}
+@font-face {
+  font-family: BMYEONSUNG;
+  src: url(../fonts/BMYEONSUNG.ttf);
+}
+@font-face {
+  font-family: Baloo Bhaijaan Regular;
+  src: url(../fonts/Baloo\ Bhaijaan\ Regular.ttf);
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #DBD4CD;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.gallary-box {
+  position: relative;
+}
+
+.gallary-box img {
+  width: 100%;
+  display: block;
+}
+
+.gallary-box:hover {
+  transform: scale(1.05);
+  transition: 0.4s ease-in-out;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  text-align: center;
+}
+
+.gallary-box:hover .content {
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+
+.gallary-box {
+  margin-top: 70px;
+}
+
+.gallary {
+  margin-top: 70px;
+}
+
+.gallary h1 {
+  font-size: 60px;
+}
+
+.gallary h2 {
+  margin-top: 70px;
+  text-align: center;
+}
+
+body {
+  font-family: BM-HANNA;
+}
+
+#connect-box h1 {
+  font-size: 50px;
+  margin-top: 70px;
+}
+
+#connect-box p {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+#form {
+  margin-top: 60px;
+}
+
+#form input,
+label,
+textarea {
+  height: 32px;
+  margin-top: 20px;
+  border: none;
+}
+
+#form label {
+  margin-left: 40px;
+}
+
+#form textarea {
+  height: 150px;
+  resize: none;
+  padding-left: 10px;
+}
+
+#form .submit {
+  margin-top: 30px;
+  width: 185px;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+section {
+  margin-top: 50px;
+}
+
+img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
