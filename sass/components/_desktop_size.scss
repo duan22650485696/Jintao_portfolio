@@ -1,0 +1,174 @@
+@media screen and (min-width: 768px) {
+    header {
+        height: 110px;
+    }
+
+    .nav-menu li a {
+        color: white;
+        margin-right: 80px;
+        font-size: 20px;
+    }
+
+    .nav-menu li {
+        display: block;
+        margin-top: -20px;
+    }
+
+    #header-logo {
+        height: 55px;
+        width: 55px;
+        padding-bottom: 90px;
+        margin-left: 80px;
+    }
+
+    hr {
+        margin-top: 100px;
+        border-top: 2px solid;
+    }
+
+    #my-work {
+        font-size: 90px;
+    }
+
+    #jintao-text {
+        font-size: 130px;
+    }
+
+    .img-box {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #img-2 {
+        margin-bottom: -400px;
+    }
+
+    .tittle {
+        font-size: 60px;
+    }
+
+    /* Kavorka tittle */
+    h3 {
+        font-size: 65px;
+        margin-bottom: 80px;
+    }
+
+    #logo-design-des h2 {
+        font-size: 60px;
+        margin-bottom: 80px;
+    }
+
+    #earbunds-img-box {
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    #about-me {
+        font-size: 120px;
+        margin-top: 120px;
+        margin-bottom: 60px;
+    }
+
+    #experience h1 {
+        font-size: 80px;
+    }
+
+    #profile-img {
+        height: 440px;
+        width: 440px;
+        border-radius: 50%;
+    }
+
+    #experience h1 {
+        font-size: 90px;
+        margin-top: 70px;
+        margin-bottom: 150px;
+    }
+
+    #experience p {
+        margin-top: 70px;
+        font-size: 40px;
+    }
+
+    #what-do h1 {
+        font-size: 70px;
+        margin-top: 70px;
+        margin-bottom: 150px;
+    }
+
+    #what-do p {
+        font-size: 40px;
+    }
+
+    #contact-img {
+        margin-top: 120px;
+    }
+
+    #lets-work h1 {
+        margin-top: 80px;
+        font-size: 60px;
+    }
+
+    #email-me h1 {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    #my-des p {
+        margin-top: 100px;
+        margin-bottom: 70px;
+        font-size: 30px;
+    }
+
+    #footer-logo {
+        margin-top: 200px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .social-media-icon {
+        width: 100%;
+    }
+
+    /* gallary */
+        .gallary-box {
+            margin-top: 50px;
+        }
+    
+        .gallary h1 {
+            font-size: 120px;
+        }
+    
+        .gallary h2 {
+            font-size: 50px;
+        }
+
+        /* contact */
+                  #connect-box h1 {
+                      font-size: 145px;
+                      margin-top: 70px;
+                  }
+        
+                  #connect-box p {
+                      font-size: 70px;
+                      margin-top: 30px;
+                  }
+        
+                  #form {
+                      margin-top: 70px;
+                  }
+        
+                  #form input {
+                      height: 40px;
+                      width: 500px;
+                  }
+        
+                  #form label {
+                      font-size: 27px;
+                      margin-left: 30px;
+                  }
+        
+                  #form textarea {
+                      width: 500px;
+                  }
+}
