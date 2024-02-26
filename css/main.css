@@ -288,13 +288,9 @@ h3 {
   .nav-menu {
     display: flex;
     background-color: transparent;
-    /* Remove background color for desktop */
     position: static;
-    /* Reset position for desktop */
     width: auto;
-    /* Reset width for desktop */
     height: auto;
-    /* Reset height for desktop */
   }
   .navbar #ham-menu {
     display: none;
