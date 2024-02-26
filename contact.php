@@ -81,10 +81,7 @@
         </section>
     </div>
 </footer>
-       
-            
-        
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+
     <script src="js/main.js"></script>
 </body>
 

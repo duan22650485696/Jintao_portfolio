@@ -6,8 +6,9 @@
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>Gallary</title>
     <link href="css/grid.css" rel="stylesheet">
-    <link href="css/gallary.css" rel="stylesheet">
-    <link href="css/header.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 </head>
 
 <body>
@@ -18,11 +19,13 @@
             </div>
             <ul class="nav-menu">
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="gallary.html">GALLERY</a></li>
-                <li><a href="contact.php">CONTACT</a></li>
+                <li><a href="project_list.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
             </ul>
+            <a href="#" id="ham-menu"><img src="images/home/ham-menu.png" alt="hamburger-menu"></a>
         </nav>
-    </header>
+</header>
+
    
     <main>
         <div class="grid-con gallary contentSmooth ">
@@ -41,7 +44,7 @@
             <section class="col-span-full m-col-start-3 m-col-end-11">
                 <h2>Logo Design</h2>
                 <div class="gallary-box ">
-                    <a href="Kavorka_page.html"><img src="images/gallary/Kavorka.jpg" alt="makeup-logo"></a>
+                    <a href="Kavorka_detail.html"><img src="images/gallary/Kavorka.jpg" alt="makeup-logo"></a>
                     <div class="content">
                         <h1>Kavorka Makeup</h1>
                     </div>
@@ -108,7 +111,9 @@
                     </section>
                 </div>
             </footer>
+
 <script src="js/main.js"></script>
+<script src="js/trigger.js"></script>
 </body>
 
 </html>
