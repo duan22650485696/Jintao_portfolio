@@ -27,7 +27,7 @@ $stmt->execute();
 while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 
   echo  '<p class="project-list">'.
-  $row['title'].
+  $row['title'].<br>
   '<a href="edit_project_form.php?id='.$row['id'].'">edit</a>'.
 
   '<a href="delete_project.php?id='.$row['id'].'">delete</a></p>';
