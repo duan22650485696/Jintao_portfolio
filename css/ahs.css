@@ -1,0 +1,12 @@
+@font-face {
+    font-family: ITC Willow Font;
+    src: url(../fonts/ITC\ Willow\ Font.ttf);
+}
+
+h2 {
+    font-size: 70px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+h3 {font-family: ITC Willow Font; font-size: 50px;}
