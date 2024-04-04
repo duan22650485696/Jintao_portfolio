@@ -23,12 +23,12 @@
 }
 /* Line */
 hr {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 #my-work {
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     margin-top: 50px;
     font-family: BM-HANNA;
     margin-bottom: 40px;
@@ -44,7 +44,7 @@ hr {
 
 .pic-des h3 {
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-top: -10px;
 }
 
 .pic-des p {
@@ -53,6 +53,7 @@ hr {
     line-height: 1.5em;
     color: white;
     font-family: BMYEONSUNG;
+    margin-top: 50px;
 }
 
 .img-box {
@@ -124,9 +125,6 @@ h3 {
 
 #my-description{
   color: rgb(45, 45, 45);
-    animation:
-            typing 2s steps(30, end),
-            blink-caret .5s step-end infinite;
 }
 
 #profile-img {
@@ -209,19 +207,5 @@ h3 {
     color: white;
     
 }
-
-@keyframes typing {
-    from {
-        width: 50%
-    }
-
-    to {
-        width: 100%
-    }
-}
-
-
-
-/* The typewriter cursor effect */
 
 
