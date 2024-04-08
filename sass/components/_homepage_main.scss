@@ -1,8 +1,7 @@
 #jintao-text {
     font-size: 57px;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 80px;
     font-family: BM-HANNA;
     animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
@@ -24,28 +23,28 @@
 }
 /* Line */
 hr {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 #my-work {
     text-align: center;
-    font-size: 55px;
+    font-size: 50px;
     margin-top: 50px;
     font-family: BM-HANNA;
+    margin-bottom: 40px;
 }
 
 .tittle {
-    font-size: 28px;
+    font-size: 40px;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 30px;
     color: white;
     font-family: BM-HANNA;
 }
 
 .pic-des h3 {
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-top: -10px;
 }
 
 .pic-des p {
@@ -54,6 +53,7 @@ hr {
     line-height: 1.5em;
     color: white;
     font-family: BMYEONSUNG;
+    margin-top: 50px;
 }
 
 .img-box {
@@ -123,6 +123,10 @@ h3 {
     font-family: BM-HANNA;
 }
 
+#my-description{
+  color: rgb(45, 45, 45);
+}
+
 #profile-img {
     background-image: url(../images/home/profile-img.jpg);
     background-repeat: no-repeat;
@@ -147,7 +151,7 @@ h3 {
 
 #experience {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 70px;
     line-height: 30px;
     font-family: BM-HANNA;
@@ -155,11 +159,13 @@ h3 {
 
 #experience h1 {
     font-size: 50px;
+    margin-bottom: 85px;
+
 }
 
 #experience p {
-    font-size: 20px;
-    margin-top: 25px;
+    font-size: 30px;
+    margin-top: 45px;
 }
 
 #what-do {
@@ -169,7 +175,7 @@ h3 {
 
 #what-do h1 {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     font-size: 35px;
 }
 
@@ -177,6 +183,7 @@ h3 {
     margin-top: 10px;
     margin-bottom: 40px;
     font-size: 20px;
+    color: rgb(66, 66, 66);
 }
 
 #contact-img {
@@ -193,6 +200,12 @@ h3 {
 
 #email-me {
     font-family: BM-HANNA;
-    line-height: 30px;
+    line-height: 50px;
 }
+
+#resume {
+    color: white;
+    
+}
+
 

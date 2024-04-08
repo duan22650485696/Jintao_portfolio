@@ -1,3 +1,4 @@
+
 <?php
 session_start();  //create a new, empty session array
 require_once('../includes/connect.php');

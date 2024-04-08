@@ -1,13 +1,25 @@
 <?php
 require_once('../includes/connect.php');
-$query = "UPDATE projects SET title = ?,image_url = ?,description=? WHERE id = ?";
+
+$target_file = '../images/gallary/image_'.time();
+$imageFileType = strtolower(pathinfo($_FILES['pro_image']['name'], PATHINFO_EXTENSION));
+$target_file .= '.'.$imageFileType;
+
+
+if (!move_uploaded_file($_FILES['pro_image']['tmp_name'], $target_file)) {
+    die('Failed to upload');
+}
+
+
+$query = "UPDATE projects SET pro_cateagory = ?, pro_name=?, pro_image = ? WHERE id = ?";
 
 $stmt = $connection->prepare($query);
 
-$stmt->bindParam(1, $_POST['title'], PDO::PARAM_STR);
-$stmt->bindParam(2, $_POST['thumb'], PDO::PARAM_STR);
-$stmt->bindParam(3, $_POST['desc'], PDO::PARAM_STR);
+$stmt->bindParam(1, $_POST['pro_cateagory'], PDO::PARAM_STR);
+$stmt->bindParam(2, $_POST['pro_name'], PDO::PARAM_STR);
+$stmt->bindParam(3, $target_file, PDO::PARAM_STR);
 $stmt->bindParam(4, $_POST['pk'], PDO::PARAM_INT);
+
 
 $stmt->execute();
 $stmt = null;

@@ -1,0 +1,28 @@
+#edit-con {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 200px;
+}
+
+#edit-con form input {
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+#edit-con #button {
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 30px 30px;
+}
+
+#edit-con label {
+    font-size: 20px;
+    padding-left: 10px;
+}

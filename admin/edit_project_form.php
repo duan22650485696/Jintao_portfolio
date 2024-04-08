@@ -19,17 +19,25 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
 </head>
 <body>
 
- 
-<form action="edit_project.php" method="POST">
-<input name="pk" type="hidden" value="<?php echo $row['id']; ?>">
-    <label for="title">project title: </label>
-    <input name="title" type="text" value="<?php echo $row['title']; ?>" required><br><br>
-    <label for="thumb">project thumbnail: </label>
-    <input name="thumb" type="text" required value="<?php echo $row['image_url']; ?>"><br><br>
-    <label for="desc">project description: </label>
-    <textarea name="desc" required><?php echo $row['description']; ?></textarea><br><br>
-    <input name="submit" type="submit" value="Edit">
-</form>
+<div id="edit-con">
+    <form action="edit_project.php" method="POST" enctype="multipart/form-data">
+        <input name="pk" type="hidden" value="<?php echo $row['id']; ?>">
+
+        <label for="pro_cateagory">Project Category: </label>
+        <input name="pro_cateagory" type="text" value="<?php echo $row['pro_cateagory']; ?>" required><br><br>
+
+        <label for="pro_name">Project Name: </label>
+        <input name="pro_name" type="text" value="<?php echo $row['pro_name']; ?>" required><br><br>
+
+        <label for="pro_image"> Project image: </label>
+        <input name="pro_image" type="file" required><br><br>
+
+        <input id="button" name="submit" type="submit" value="Edit">
+    </form>
+</div>
+
+
+
 <?php
 $stmt = null;
 ?>

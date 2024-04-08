@@ -13,6 +13,12 @@
     transition: 0.4s ease-in-out;
 }
 
+section .content h1 {
+    background-color: rgba(0, 0, 0, 0.371);
+    font-size: 50px;
+    border-radius: 15px;
+}
+
 .content {
     position: absolute;
     top: 50%;
@@ -20,6 +26,7 @@
     transform: translate(-50%, -50%);
     opacity: 0;
     text-align: center;
+    
 }
 
 .gallary-box:hover .content {
@@ -35,10 +42,10 @@
 }
 
 .gallary h1 {
-    font-size: 60px;
+    font-size: 65px;
 }
 
 .gallary h2 {
-    margin-top: 70px;
     text-align: center;
+    font-size: 30px;
 }
