@@ -38,7 +38,6 @@
         padding-top: 20px;
     }
 
-
     hr {
         margin-top: 100px;
         border-top: 2px solid;
@@ -109,6 +108,10 @@
         font-size: 40px;
     }
 
+    #what-do {
+        background-color: none;
+    }
+
     #what-do h1 {
         font-size: 70px;
         margin-top: 70px;
@@ -117,6 +120,11 @@
 
     #what-do p {
         font-size: 40px;
+    }
+
+    #what-do img {
+        text-align: center;
+        width: 60%;
     }
 
     #contact-img {
@@ -133,10 +141,13 @@
         margin-top: 40px;
     }
 
-    #my-des p {
+    #my-des{
         margin-top: 100px;
         margin-bottom: 70px;
-        font-size: 30px;
+        font-size: 40px;
+        background-color: none;
+        padding: 80px 40px;
+        border-radius: 30px;
     }
 
     #footer-logo {
